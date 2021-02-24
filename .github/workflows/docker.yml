@@ -22,6 +22,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ${{ secrets.DOCKER_REPO }}:cloudflare
+        tags: ${{ secrets.DOCKER_REPO }}:latest
         build-args: |
           XCADDY_ARGUMENTS=github.com/caddy-dns/cloudflare,github.com/mholt/caddy-webdav
