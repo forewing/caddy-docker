@@ -24,4 +24,4 @@ jobs:
         push: true
         tags: ${{ secrets.DOCKER_REPO }}:latest
         build-args: |
-          XCADDY_ARGUMENTS=github.com/caddy-dns/cloudflare,github.com/mholt/caddy-webdav
+          XCADDY_ARGUMENTS=github.com/caddy-dns/cloudflare
